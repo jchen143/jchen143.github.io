@@ -2431,7 +2431,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -3813,4 +3813,51 @@ input, select, textarea {
 
 .zoe-li{
 	margin-right: 65px;
+}
+.skills-ul li img{
+	width: 51px;
+	text-decoration: none;
+    border-bottom: none;
+	position: relative;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+	/*vertical-align: baseline;*/
+	-webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    /*text-rendering: auto;*/
+    line-height: 1;
+    text-transform: none !important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+.skills-ul li i {
+	-webkit-font-smoothing: antialiased;
+    /*display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    text-transform: none !important;
+    font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+		color: #6f7577; */
+		font-size: 40px; 
+}
+.sub-skills{
+	display: flex;
+	justify-content: space-between; 
+}
+.sub-skills li{
+	width: 80px;
+}
+
+.html5, .javascript{
+	margin-left: 0px; 
+	padding-left: 0px; 
 }
